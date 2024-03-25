@@ -1,0 +1,144 @@
+/* Write CSS here */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 90vh;
+  width: 90vw;
+  background-size: cover;
+  padding: 20px;
+  margin: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px;
+  width: 100%;
+}
+
+.h1 {
+  font-family: roboto;
+  font-size: 50px;
+}
+
+.card {
+  width: 80vw;
+  background-color: white;
+  margin: 30px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.image1 {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.h3 {
+  font-size: 45px;
+  font-family: roboto;
+  font-weight: 600;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+.buttonsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button1 {
+  padding: 6px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 15px;
+  border-width: 0px;
+  background-color: #1db05f;
+  border-radius: 5px;
+  font-family: roboto;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+.button2 {
+  padding: 6px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 15px;
+  border-width: 0px;
+  background-color: #ef0d36;
+  border-radius: 5px;
+  font-family: roboto;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+.button3 {
+  padding: 6px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 15px;
+  border-width: 0px;
+  background-color: #eaa800;
+  border-radius: 5px;
+  font-family: roboto;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .card {
+    height: 350px;
+    width: 350px;
+    margin-top: 0px;
+  }
+
+  .main {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 60px;
+    padding-top: 10px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+
+  .content {
+    width: 360px;
+    height: 360px;
+  }
+
+  .h3 {
+    font-size: 50px;
+    margin: 60px;
+  }
+}
